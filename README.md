@@ -9,10 +9,10 @@ Private source repository for Deyi Zhu's academic personal homepage.
 - `dist/site.js` — lightweight progressive reveal and footer year
 - `dist/imgs/` — profile, university, and publication imagery
 
-The visitor map uses a dedicated SmallCounter ID for this homepage. Loading the
-map sends the visitor's IP address to SmallCounter so the service can count the
-visit and infer an approximate geographic location. The map begins collecting
-real traffic when the public site is launched; it does not reuse another
+The visitor map uses a dedicated MapMyVisitors ID for this homepage. Loading the
+map sends visitor and page-request information to MapMyVisitors so the service
+can count visits and infer approximate geographic locations. The map collects
+real traffic after the public site is launched; it does not reuse another
 website's analytics data.
 
 ## Local preview

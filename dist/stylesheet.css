@@ -366,18 +366,24 @@ h1 span {
   overflow: hidden;
   border: 1px solid var(--line);
   border-radius: 10px;
-  background: #e8e4ed;
+  background: #fafafd;
 }
 
-.visitor-map-link {
-  display: block;
-  line-height: 0;
-}
-
-.visitor-map-image {
-  display: block;
+.visitor-widget {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
+  min-height: 285px;
+  overflow: hidden;
+}
+
+.visitor-widget img,
+.visitor-widget canvas {
+  display: block;
+  max-width: 100%;
   height: auto;
+  margin-inline: auto;
 }
 
 footer {
