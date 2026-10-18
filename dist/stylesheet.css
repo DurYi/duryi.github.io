@@ -87,7 +87,6 @@ img {
   border-bottom: 1px solid var(--line);
 }
 
-.eyebrow,
 .section-index,
 .publication-meta,
 .visitor-kicker {
@@ -324,8 +323,7 @@ h1 span {
   color: var(--purple);
 }
 
-.authors,
-.publication-summary {
+.authors {
   font-size: 0.92rem;
   line-height: 1.58;
 }
@@ -337,11 +335,6 @@ h1 span {
 
 .authors strong {
   color: var(--ink);
-}
-
-.publication-summary {
-  margin-bottom: 17px;
-  color: var(--muted);
 }
 
 .paper-links {
@@ -370,35 +363,10 @@ h1 span {
 }
 
 .visitor-panel {
-  display: grid;
-  grid-template-columns: 0.36fr 0.64fr;
-  gap: 28px;
-  align-items: stretch;
   overflow: hidden;
   border: 1px solid var(--line);
   border-radius: 10px;
   background: #fafafd;
-}
-
-.visitor-copy {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 34px 0 34px 34px;
-}
-
-.visitor-status {
-  margin: 8px 0;
-  font-family: var(--serif);
-  font-size: 1.25rem;
-  line-height: 1.35;
-}
-
-.visitor-note {
-  margin: 0;
-  color: var(--muted);
-  font-size: 0.82rem;
-  line-height: 1.55;
 }
 
 .map-stage {
@@ -525,14 +493,6 @@ footer p {
 
   .publication-visual {
     min-height: 180px;
-  }
-
-  .visitor-panel {
-    grid-template-columns: 1fr;
-  }
-
-  .visitor-copy {
-    padding: 28px 28px 0;
   }
 
   footer {
