@@ -366,60 +366,18 @@ h1 span {
   overflow: hidden;
   border: 1px solid var(--line);
   border-radius: 10px;
-  background: #fafafd;
+  background: #e8e4ed;
 }
 
-.map-stage {
-  position: relative;
-  min-height: 285px;
-  padding: 20px;
-  background: linear-gradient(135deg, #f7f2f9, #f4f6fa);
+.visitor-map-link {
+  display: block;
+  line-height: 0;
 }
 
-.map-stage svg {
+.visitor-map-image {
+  display: block;
   width: 100%;
-  height: 100%;
-}
-
-.map-grid {
-  fill: none;
-  stroke: #dcdce6;
-  stroke-width: 0.8;
-}
-
-.landmass {
-  fill: #c9b4d3;
-  stroke: #aa8bb8;
-  stroke-width: 1.6;
-}
-
-.home-pulse {
-  fill: rgba(111, 38, 143, 0.18);
-  stroke: rgba(111, 38, 143, 0.3);
-  stroke-width: 2;
-  transform-origin: 769px 182px;
-  animation: pulse 2.2s ease-out infinite;
-}
-
-.home-dot {
-  fill: var(--purple-dark);
-}
-
-.map-home-label {
-  position: absolute;
-  top: 38.5%;
-  left: 78%;
-  padding: 2px 7px;
-  color: var(--purple-dark);
-  background: rgba(255, 255, 255, 0.84);
-  border-radius: 999px;
-  font-size: 0.66rem;
-  font-weight: 700;
-}
-
-@keyframes pulse {
-  0% { opacity: 1; transform: scale(0.6); }
-  75%, 100% { opacity: 0; transform: scale(2.2); }
+  height: auto;
 }
 
 footer {
@@ -539,9 +497,6 @@ footer p {
     margin-top: 8px;
   }
 
-  .map-stage {
-    min-height: 220px;
-  }
 }
 
 @media (prefers-reduced-motion: reduce) {

@@ -21,3 +21,11 @@ if ("IntersectionObserver" in window) {
 }
 
 document.getElementById("copyright-year").textContent = new Date().getFullYear();
+
+const visitorMap = document.querySelector("[data-counter-src]");
+
+if (visitorMap) {
+  const counterUrl = new URL(visitorMap.dataset.counterSrc);
+  counterUrl.searchParams.set("refresh", Date.now().toString());
+  visitorMap.src = counterUrl.toString();
+}
